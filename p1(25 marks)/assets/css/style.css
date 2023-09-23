@@ -1,0 +1,99 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+header>nav {
+    background-color: teal;
+}
+
+header>nav>img {
+    height: 54px;
+}
+
+header>nav>ul {
+    list-style-type: none;
+    float: right;
+}
+
+header>nav>ul>li {
+    display: inline-block;
+    padding: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+header>nav>ul>li>a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+header>nav>ul>li:hover {
+    background-color: white;
+}
+
+header>nav>ul>li:hover a {
+    color: red;
+}
+
+.container {
+    display: flex;
+    flex-flow: row nowrap;
+    gap: 50px;
+    /* justify-content: center; */
+}
+
+.container>.item1 {
+    margin-left: 30px;
+
+}
+
+.container>.item>img {
+    width: 400px;
+    height: 400px;
+    transition: 0.5s ease-in-out;
+}
+
+
+.item>h1 {
+    font-size: 25px;
+    text-decoration: underline;
+    margin: 30px 20px;
+    transition: 0.5s ease-in-out;
+
+}
+
+.item>p {
+    text-align: justify;
+
+    font-size: 17px;
+    margin: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.item {
+    margin: 20px;
+}
+
+.item>h1:hover {
+    color: red;
+}
+
+.item>p:hover {
+    color: darkmagenta;
+
+}
+
+.item>img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+
+footer>center {
+    background-color: lightblue;
+}
+
+footer>center>p {
+    color: brown;
+}

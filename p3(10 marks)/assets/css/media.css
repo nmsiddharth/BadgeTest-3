@@ -1,0 +1,14 @@
+
+@media(max-width:768px){
+    .banner{
+        background: url(../images/mobile.jpg) no-repeat center;
+        background-size: cover;
+    }
+  }
+
+  @media(min-width:769px) and (max-width:1200px){
+    .banner{
+        background: url(../images/tab.jpg) no-repeat center;
+        background-size: cover;
+    }
+  }

@@ -1,0 +1,37 @@
+  /* Mobile */
+  @media(max-width:768px) {
+
+    header>nav {
+      text-align: center;
+    }
+
+    header>nav>ul {
+      float: none;
+    }
+
+    header>nav>ul>li {
+      display: block;
+    }
+
+    .container {
+      flex-flow: column;
+    }
+  }
+
+
+  /* Tablet */
+
+  @media(min-width:769px) and (max-width:1200px) {
+    header>nav {
+      text-align: center;
+    }
+
+    header>nav>ul {
+      float: none;
+    }
+
+    .container {
+      flex-flow: column;
+      justify-content: center;
+    }
+  }
